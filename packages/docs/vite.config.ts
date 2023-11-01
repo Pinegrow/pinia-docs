@@ -9,9 +9,6 @@ const fs = _fs.promises
 export default defineConfig({
   clearScreen: false,
   plugins: [
-    liveDesigner({
-      //...
-    }),
     ...(process.env.NETLIFY ? [] : [copyPiniaPlugin()]),
     // TODO: actual plugin that works well
     // TypeDocPlugin({
@@ -22,6 +19,9 @@ export default defineConfig({
     //     path.resolve(__dirname, '../nuxt/src/index.ts'),
     //   ],
     // }),
+    liveDesigner({
+      //...
+    }),
   ],
   define: {
     __DEV__: 'true',
