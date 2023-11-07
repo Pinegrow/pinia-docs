@@ -7,5 +7,10 @@
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "jest.jestCommandLine": "yarn jest --watchAll",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "search.exclude": {
+    "**/_pgbackup": true,
+    "dist": true,
+    ".unlighthouse": true
+  }
 }
