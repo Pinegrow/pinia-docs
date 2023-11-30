@@ -130,8 +130,8 @@ importers:
         version: 1.0.0-beta.5(@algolia/client-search@4.18.0)(@types/node@18.15.11)(search-insights@2.6.0)
     devDependencies:
       '@pinegrow/vite-plugin':
-        specifier: ^3.0.29
-        version: 3.0.29
+        specifier: ^3.0.34
+        version: 3.0.34
 
   packages/nuxt:
     dependencies:
@@ -1659,8 +1659,8 @@ packages:
       - vue-tsc
     dev: true
 
-  /@pinegrow/vite-plugin@3.0.29:
-    resolution: {integrity: sha512-wimWCsGHEM6J6t3Y+tPpv2ItAA0gWL3I4RrjnpChYtWhNud0VJ/YmQUN/eVfVTUImkVJcqJ53Q1cAVsSlm137Q==}
+  /@pinegrow/vite-plugin@3.0.34:
+    resolution: {integrity: sha512-lR6DBqXX2zK3wrxZuzqDVeUpmagoNT/s5+NFIinkAkf/JX9AcZ1DziMO3YbOOq31IPHIPsHSf2clGE0ZhYlGnA==}
     dependencies:
       '@vue/compiler-sfc': 3.3.4
       magic-string: 0.27.0
@@ -2391,7 +2391,7 @@ packages:
       '@types/web-bluetooth': 0.0.17
       '@vueuse/metadata': 10.2.1
       '@vueuse/shared': 10.2.1(vue@3.3.4)
-      vue-demi: 0.14.5(@vue/composition-api@1.4.0)(vue@3.3.4)
+      vue-demi: 0.14.6(vue@3.3.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -2441,7 +2441,7 @@ packages:
       '@vueuse/core': 10.2.1(vue@3.3.4)
       '@vueuse/shared': 10.2.1(vue@3.3.4)
       focus-trap: 7.4.3
-      vue-demi: 0.14.5(@vue/composition-api@1.4.0)(vue@3.3.4)
+      vue-demi: 0.14.6(vue@3.3.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -2458,7 +2458,7 @@ packages:
   /@vueuse/shared@10.1.2(vue@3.3.4):
     resolution: {integrity: sha512-1uoUTPBlgyscK9v6ScGeVYDDzlPSFXBlxuK7SfrDGyUTBiznb3mNceqhwvZHjtDRELZEN79V5uWPTF1VDV8svA==}
     dependencies:
-      vue-demi: 0.14.5(@vue/composition-api@1.4.0)(vue@3.3.4)
+      vue-demi: 0.14.6(vue@3.3.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -2467,7 +2467,7 @@ packages:
   /@vueuse/shared@10.2.1(vue@3.3.4):
     resolution: {integrity: sha512-QWHq2bSuGptkcxx4f4M/fBYC3Y8d3M2UYyLsyzoPgEoVzJURQ0oJeWXu79OiLlBb8gTKkqe4mO85T/sf39mmiw==}
     dependencies:
-      vue-demi: 0.14.5(@vue/composition-api@1.4.0)(vue@3.3.4)
+      vue-demi: 0.14.6(vue@3.3.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
