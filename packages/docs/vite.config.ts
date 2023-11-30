@@ -20,6 +20,7 @@ export default defineConfig({
     //   ],
     // }),
     liveDesigner({
+      startupPage: '@theme/components/HomeSponsors.vue',
       //...
     }),
   ],
