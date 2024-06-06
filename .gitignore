@@ -1,0 +1,34 @@
+node_modules
+coverage
+npm-debug.log
+yarn-error.log
+.nyc_output
+coverage.lcov
+dist
+.DS_Store
+temp
+test-dts/tsconfig.tsbuildinfo
+.env
+packages/*/LICENSE
+explorations
+docs-api
+packages/docs/api
+.yalc
+yalc.lock
+.idea
+
+# Pinegrow
+_pgbackup
+_pginfo
+
+## optional
+pinegrow.json
+
+## optional
+## Uncomment the below as per your needs
+## add any d.ts files that are auto-generated, for eg,
+auto-imports.d.ts
+components.d.ts
+composables.d.ts
+## rollup visualizer
+stats.html
