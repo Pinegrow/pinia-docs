@@ -130,8 +130,8 @@ importers:
         version: 1.0.0-beta.5(@algolia/client-search@4.18.0)(@types/node@18.15.11)(search-insights@2.6.0)
     devDependencies:
       '@pinegrow/vite-plugin':
-        specifier: ^3.0.56
-        version: 3.0.56
+        specifier: ^3.0.60
+        version: 3.0.60
 
   packages/nuxt:
     dependencies:
@@ -1659,8 +1659,8 @@ packages:
       - vue-tsc
     dev: true
 
-  /@pinegrow/vite-plugin@3.0.56:
-    resolution: {integrity: sha512-wSth/FZbIQkXC+whUpglT2vl/qU5FYvf8kgGX/aY/SCmcwnuDR7YgsJMWThXshWovjNKfHjDf3GECGrPdDwymQ==}
+  /@pinegrow/vite-plugin@3.0.60:
+    resolution: {integrity: sha512-Vg4S3iAOWk96N+X6O+VJTboHy71qX/xok5T3m3oc3zjhE2s5rg2UBiqrbIAdZpkNlBLpeqAVcC9eyj2Em8w0bQ==}
     dependencies:
       '@vue/compiler-sfc': 3.3.4
       magic-string: 0.27.0

@@ -20,6 +20,6 @@
     "vitepress": "1.0.0-beta.5"
   },
   "devDependencies": {
-    "@pinegrow/vite-plugin": "^3.0.56"
+    "@pinegrow/vite-plugin": "^3.0.60"
   }
 }
