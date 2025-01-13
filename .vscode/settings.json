@@ -8,11 +8,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "jest.jestCommandLine": "yarn jest --watchAll",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.expand": false,
-  "explorer.fileNesting.patterns": {
-    "package.json": "*"
-  },
+
   "search.exclude": {
     "**/_pgbackup": true,
     "dist": true,
